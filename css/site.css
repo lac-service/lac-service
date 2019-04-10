@@ -1,0 +1,270 @@
+/* =============================== COMMON ========================== */
+
+body {
+	font-family: Roboto, sans-serif;
+	background: #fcfcfc url(../images/bg_texture.jpg) repeat;  
+	margin: 0px;
+	padding: 0px;
+}
+label {
+	font-family: 'Lato', sans-serif !important;
+	font-size: 14px; 
+	font-weight: normal !important; 
+}
+
+.lo_top-strip {
+	background: #373D41;
+	height:38px;
+	width: 100%;
+}
+
+.lo_top-info {
+	width:1166px;
+	margin:0 auto;
+}
+
+.lo_bottom-strip {
+	background: #3186AD;
+	/*border-bottom:4px solid #5C9DC0;*/
+	height:37px;
+
+}
+
+#wrapper {
+	margin: 0px auto 0 auto;
+	padding: 0;
+	max-width: 900px;
+}
+
+table, form {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/* =============================== HEAD ========================== */
+
+.lo_top-info h1 {
+	color:#fff;
+	margin:0;padding:7px 0 0 0;
+	font-size:18px;
+	font-weight: normal
+}
+
+.lo_top-info h1 small {
+	font-size: 12px;
+    /* font-style: italic; */
+    align: right;
+    color: #adadad;
+    margin: 0px 0px 0px 0px;
+}
+
+ #links {
+	float:right;
+	margin-top:8px;
+}
+
+ #links a {
+	color: #fff;
+	text-decoration: none;
+	margin: 5px 6px 0 6px;
+	letter-spacing: 1px;
+}
+
+/* =============================== NAVBAR ========================== */
+
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3283AA;
+    min-width: 160px;
+    z-index: 1;
+}
+
+
+
+.dropdown-content a:hover {background-color: #5C9DC0}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#navbar {
+	height: 30px;
+	width:1170px; 
+	margin:0 auto;.
+	background-color: #3D82AB;
+}
+#navbar ul {
+	margin: 0 0 0 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#navbar li {
+	margin: 0;
+	padding: 0px;
+	float: left;
+}
+#navbar a {
+	margin: 0px;
+	padding: 11px 25px 11px;
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight:normal;
+
+}
+* html #navbar a {
+	padding: 7px 0 3px;
+	width: 120px;
+	text-align: center;
+}
+#navbar a.selected {
+	background: #5C9DC0;	
+}
+
+#navbar a.selected:hover {
+	background: #5C9DC0;	
+}
+
+#navbar a:hover {
+	color: #fff;
+	background: #5C9DC0;
+
+}
+
+/* =============================== CONTENT ========================== */
+
+#full-content {
+	max-width: 900px;
+}
+#content {
+	padding: 40px 40px 40px 30px;
+	background: #fff;
+	min-height: 250px;
+	width: 1101px;
+	margin: 0 auto;
+	color: #444;
+	box-shadow: 0 0 0 1px rgba(0,0,0,.1), 0 2px 3px rgba(0,0,0,.2);
+	}
+
+#content h1 {
+	color: #3D82AB;
+	font-size: 22px;
+	margin: 10px 0px 15px;
+	padding: 0px 5px ;
+}
+
+#content h2 {
+	color: #373D41;
+	font-size: 20px;
+	margin: 0px 0px 15px 0px;
+	padding: 0;
+	font-weight: normal; 
+}
+#content h3 {
+	font-size: 15px;
+	margin: 10px 0 5px;
+	padding: 0;
+	color: #3D82AB;
+	font-weight: normal;
+}
+#content h4 {
+	font-size: 17px;
+	margin: 10px 0 5px;
+	padding: 0;
+	color: #373D41;
+	font-weight: bold;
+}
+#content p {
+	font-size: 13px;
+	margin: 3px 0;
+	padding: 0px 5px ;
+}
+
+#content .box{
+	box-shadow: 0px 0px 1px 0px #bbb;
+	padding: 10px;
+	border: 1px solid #ccc ;
+	border-radius: 10px ;
+	background: #f6f6f6 ;
+}
+
+#content .button {
+	font-weight: bold;
+	margin: 0 3px;
+	color: #FFFFFF;
+	font-family: 'Lato', sans-serif !important;
+	font-size: 16px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #EE5921;
+	font-style: normal;
+	border: none;padding: 4px 15px;
+	border-bottom:2px solid #D04622;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-decoration: none ;
+	cursor: pointer ;
+
+}
+
+#content .button:hover {
+	opacity:0.9;
+	text-decoration: none ;
+	cursor: pointer ;
+}
+.centered{
+	text-align:center;
+}
+.centered form table{ 
+	margin: 0 auto;
+}
+.centered form table table{
+	margin: 0;
+}
+#InsertRecordComments{
+	resize: vertical;
+}
+input[type="submit"]{
+	cursor: pointer;
+}
+textarea {
+    resize: vertical;
+    white-space: pre-line;
+    box-sizing: border-box;
+}
+/* =============================== FOOTER ========================== */
+
+#cb-footer {
+	clear: both;
+	border-top: 0px solid #a1b5c0;
+	color: #777;
+	margin: 4px 0px 0px 0px;
+	padding: 10px 0 10px 10px;
+	font-size: 11px;
+	text-align: center;
+}
+#cb-footer p {
+	margin: 0 0 5px 0;
+	padding: 0;
+}
+#cb-footer a {
+	color: #777;
+	text-decoration: underline;
+}
+#cb-footer a:hover{
+	text-decoration: none;
+}
+#cb-footer p:first-child{
+	font-weight: bold;
+}
