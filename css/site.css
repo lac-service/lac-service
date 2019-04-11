@@ -81,7 +81,7 @@ li.dropdown {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #3283AA;
+    background-color: #dcdee0;
     min-width: 160px;
     z-index: 1;
 }
@@ -98,7 +98,7 @@ li.dropdown {
 	height: 70px;
 	width:1170px; 
 	margin:0 auto;
-	background-color: #3D82AB;
+	background-color: #dcdee0;
 }
 #navbar ul {
 	margin: 0 0 0 0px;
