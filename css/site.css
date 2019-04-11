@@ -114,12 +114,12 @@ li.dropdown {
 	margin: 0px;
 	padding: 11px 25px 11px;
 	text-decoration: none;
-	color: #fff;
+	color: #000;
 	display: block;
-	font-size: 12px;
+	font-size: 14px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	font-weight:normal;
+	font-weight:bold;
 
 }
 * html #navbar a {
